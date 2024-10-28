@@ -1,0 +1,4 @@
+build
+makefile
+pelican_read_more*.whl
+pelican_read_more.egg-info
