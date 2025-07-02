@@ -7,7 +7,7 @@ from pelican import signals
 def read_more(value, url):
     """ handles 'Read more' functionality """
     pattern = '<!--MORE-->.*'
-    replacement = (f'<p class="readmore"><a href="{url}">'
+    replacement = (f'<p class="readmore"><a href="/{url}">'
                    f'Read more&hellip;</a></p>')
 
     _re = re.compile(pattern, flags=re.DOTALL)
